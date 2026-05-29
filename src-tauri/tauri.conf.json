@@ -38,7 +38,9 @@
     "targets": ["app", "dmg", "nsis", "deb", "rpm", "appimage"],
     "linux": {
       "deb": {
-        "depends": []
+        "depends": [],
+        "section": "utils",
+        "priority": "optional"
       },
       "rpm": {
         "epoch": 0,
